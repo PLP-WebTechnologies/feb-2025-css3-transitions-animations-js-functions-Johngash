@@ -1,0 +1,30 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+#clickBtn{
+    padding: 3vh 3vw;
+    border: none;
+    border-radius: 3vh;
+    font-size: 18px;
+    font-weight: bolde;
+    color: white;
+    background-color: rgb(0, 102, 255);
+}
+
+#count {
+  font-size: 2rem;
+  transition: transform 0.2s ease;
+}
+
+.bump {
+  transform: scale(1.3);
+}
